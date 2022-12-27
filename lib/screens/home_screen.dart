@@ -13,10 +13,19 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home')
       ),
-      drawer: SideMenu(),
-      body: Center(
-        child: Text('HomeScreen')
-        ),
+      drawer: const SideMenu(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const [
+          Text('is Dark mode: '),
+          Divider(),
+          Text('Gender: '),
+          Divider(),
+          Text('Username: '),
+          Divider(),
+          
+        ],
+      ),
     );
   }
 }
