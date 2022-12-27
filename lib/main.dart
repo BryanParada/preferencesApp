@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         SettingsScreen.routerName: (_) => const SettingsScreen(),
 
       },
-      theme: ThemeData.light(),
+      theme: Preferences.isDarkMode ?  ThemeData.dark() : ThemeData.light(),
     );
   }
 }
