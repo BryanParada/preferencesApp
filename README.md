@@ -1,6 +1,19 @@
 # preferences_app
 
-A new Flutter project.
+Preference app made in Flutter 
+
+<img src="https://user-images.githubusercontent.com/51382458/209738418-df289e94-3fcf-4e95-9e2f-799e44603570.png" width="300" /> 
+
+## Features  
+- Change properties
+- Check how after reset the app the values remain 
+
+## What did i use in this app? 
+
+- how to save to storage
+- read from storage
+- How to read information from storage before application runs
+- Implement a singleton to increase its efficiency.
 
 ## Getting Started
 
